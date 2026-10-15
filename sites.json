@@ -28,6 +28,14 @@
   ]
 },
   {
+  "id": "reshma-portfolio",
+  "title": "Adv. Reshma Raj",
+  "category": "Portfolio",
+  "status": "coming-soon",
+  "url": "https://reshma.professionals-cv.in/",
+  "featured": true
+},
+  {
     "id": "engicore",
     "title": "EngiCore",
     "description": "A home for engineering data, digital tools, and smarter project workflows.",
