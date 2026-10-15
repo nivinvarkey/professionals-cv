@@ -12,17 +12,16 @@
     "tags": ["Education", "Science", "Biology"]
   },
   {
-    "id": "nivin-portfolio",
-    "title": "Engineering Portfolio",
-    "description": "A professional portfolio focused on piping engineering, fabrication, project delivery and digital innovation.",
-    "category": "Portfolio",
-    "status": "coming-soon",
-    "featured": true,
-    "url": "",
-    "icon": "briefcase",
-    "accent": "blue",
-    "tags": ["Engineering", "Fabrication"]
-  },
+  "id": "nivin",
+  "title": "Nivin Varkey",
+  "description": "Piping Engineering, Fabrication, Spooling and Engineering Digitalization Portfolio",
+  "category": "Professional Portfolio",
+  "url": "https://nivin.professionals-cv.in/",
+  "subdomain": "nivin.professionals-cv.in",
+  "status": "active",
+  "featured": true,
+  "icon": "hard-hat"
+},
   {
     "id": "engicore",
     "title": "EngiCore",
