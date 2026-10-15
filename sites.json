@@ -30,10 +30,19 @@
   {
   "id": "reshma-portfolio",
   "title": "Adv. Reshma Raj",
+  "description": "Professional legal portfolio featuring civil, criminal and family law, litigation, legal research, document drafting and case management.",
   "category": "Portfolio",
-  "status": "coming-soon",
+  "status": "live",
+  "featured": true,
   "url": "https://reshma.professionals-cv.in/",
-  "featured": true
+  "icon": "scale",
+  "accent": "gold",
+  "tags": [
+    "Legal Associate",
+    "Litigation",
+    "Legal Research",
+    "Family Law"
+  ]
 },
   {
     "id": "engicore",
