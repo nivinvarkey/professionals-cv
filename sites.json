@@ -12,15 +12,20 @@
     "tags": ["Education", "Science", "Biology"]
   },
   {
-  "id": "nivin",
+  "id": "nivin-portfolio",
   "title": "Nivin Varkey",
-  "description": "Piping Engineering, Fabrication, Spooling and Engineering Digitalization Portfolio",
-  "category": "Professional Portfolio",
-  "url": "https://nivin.professionals-cv.in/",
-  "subdomain": "nivin.professionals-cv.in",
-  "status": "active",
+  "description": "Piping Engineering, Fabrication, Spooling and Engineering Digitalization",
+  "category": "Portfolio",
+  "status": "live",
   "featured": true,
-  "icon": "hard-hat"
+  "url": "https://nivin.professionals-cv.in/",
+  "icon": "briefcase",
+  "accent": "blue",
+  "tags": [
+    "Engineering",
+    "Fabrication",
+    "Piping"
+  ]
 },
   {
     "id": "engicore",
