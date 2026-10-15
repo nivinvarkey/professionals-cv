@@ -1,0 +1,62 @@
+[
+  {
+    "id": "pratheeksha",
+    "title": "Pratheeksha Science Educator",
+    "description": "Discover a Science & Biology educator's qualifications, teaching experience, and dedication to inspiring young minds.",
+    "category": "Portfolio",
+    "status": "live",
+    "featured": true,
+    "url": "https://pratheekshashaju123-sudo.github.io/Pratheeksha_Science_Educator/",
+    "icon": "graduation",
+    "accent": "green",
+    "tags": ["Education", "Science", "Biology"]
+  },
+  {
+    "id": "nivin-portfolio",
+    "title": "Engineering Portfolio",
+    "description": "A professional portfolio focused on piping engineering, fabrication, project delivery and digital innovation.",
+    "category": "Portfolio",
+    "status": "coming-soon",
+    "featured": true,
+    "url": "",
+    "icon": "briefcase",
+    "accent": "blue",
+    "tags": ["Engineering", "Fabrication"]
+  },
+  {
+    "id": "engicore",
+    "title": "EngiCore",
+    "description": "A home for engineering data, digital tools, and smarter project workflows.",
+    "category": "Applications",
+    "status": "coming-soon",
+    "featured": true,
+    "url": "",
+    "icon": "layers",
+    "accent": "purple",
+    "tags": ["Engineering", "Automation"]
+  },
+  {
+    "id": "checkers-tool",
+    "title": "Checker’s Tool",
+    "description": "Streamlining engineering verification and checking processes across projects.",
+    "category": "Applications",
+    "status": "coming-soon",
+    "featured": false,
+    "url": "",
+    "icon": "check",
+    "accent": "orange",
+    "tags": ["Quality", "Spooling"]
+  },
+  {
+    "id": "my-workfront",
+    "title": "My Workfront",
+    "description": "An organized workspace for tasks, progress, and everyday productivity.",
+    "category": "Applications",
+    "status": "coming-soon",
+    "featured": false,
+    "url": "",
+    "icon": "grid",
+    "accent": "cyan",
+    "tags": ["Productivity", "Workflow"]
+  }
+]

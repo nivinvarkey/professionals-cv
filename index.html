@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#080d19" />
+  <meta name="description" content="A curated digital hub for professional portfolios, engineering solutions, and innovative web applications." />
+  <meta property="og:title" content="Nivin's Digital Hub | Explore the Ecosystem" />
+  <meta property="og:description" content="Explore professional portfolios, engineering solutions, and digital applications in one place." />
+  <meta property="og:type" content="website" />
+  <title>Digital Hub — Portfolios, Products & Projects</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="site-glow" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Digital Hub home"><span class="brand-symbol">N<span class="brand-dot">.</span></span><span class="brand-name">digital<span>hub</span></span></a>
+      <button class="menu-toggle icon-button" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation"><a href="#home" class="nav-link active">Home</a><a href="#directory" class="nav-link">Explore</a><a href="#about" class="nav-link">About</a><a href="#contact" class="nav-link">Contact</a></nav>
+      <a href="#directory" class="nav-cta">Explore projects <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-pad">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="pulse-dot"></span> OUR DIGITAL UNIVERSE <span class="eyebrow-sparkle">✦</span></div>
+          <h1>Ideas built into <span class="gradient-text">digital experiences.</span></h1>
+          <p class="hero-description">One destination for the people, platforms, and projects shaping our world. Explore professional portfolios, intelligent tools, and everything we're building next.</p>
+          <div class="hero-actions"><a class="button primary" href="#directory">Explore our projects <span aria-hidden="true">↗</span></a><a class="button secondary" href="#about">Discover our story <span aria-hidden="true">→</span></a></div>
+          <div class="hero-metrics"><div><strong id="heroTotal">05</strong><span>Digital projects</span></div><div class="metric-divider"></div><div><strong id="heroLive">01</strong><span>Live experiences</span></div><div class="metric-divider"></div><div><strong>∞</strong><span>Possibilities</span></div></div>
+        </div>
+        <div class="hero-art" aria-label="Decorative visual representing connected digital projects">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+          <div class="art-glow"></div>
+          <div class="core-tile"><div class="core-icon">N<span>.</span></div><small>THE HUB</small></div>
+          <div class="floating-chip chip-top"><span class="mini-chip-icon color-green">✳</span><div><b>Education</b><small>Inspiring minds</small></div></div>
+          <div class="floating-chip chip-right"><span class="mini-chip-icon color-purple">◇</span><div><b>Engineering</b><small>Building smarter</small></div></div>
+          <div class="floating-chip chip-bottom"><span class="mini-chip-icon color-blue">▦</span><div><b>Digital products</b><small>Made to simplify</small></div></div>
+          <div class="art-star star-a">✦</div><div class="art-star star-b">✧</div><div class="art-star star-c">✦</div>
+        </div>
+      </div>
+      <div class="container scroll-prompt"><span class="scroll-line"></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="intro-strip" aria-label="Our focus"><div class="container strip-inner"><div><span class="strip-symbol">✳</span> THINK BIG</div><span class="strip-separator">/</span><div><span class="strip-symbol">✦</span> BUILD SMART</div><span class="strip-separator">/</span><div><span class="strip-symbol">↗</span> KEEP EVOLVING</div></div></section>
+
+    <section class="directory-section section-pad" id="directory">
+      <div class="container">
+        <div class="section-topline"><span class="section-kicker">01 / OUR ECOSYSTEM</span><span class="topline-star">✦</span></div>
+        <div class="section-heading-row"><div><h2>Explore what<br/><span class="muted-heading">we've created.</span></h2><p>Different ideas. One connected ecosystem. Find the experience you're looking for.</p></div><div class="project-counter"><strong id="directoryCount">05</strong><span>PROJECTS & COUNTING</span></div></div>
+        <div class="directory-tools"><div class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg><label class="sr-only" for="searchInput">Search projects</label><input id="searchInput" type="search" placeholder="Search projects or keywords..." autocomplete="off" /></div><div class="filter-pills" aria-label="Project filters"><button class="filter active" data-filter="All" aria-pressed="true">All projects</button><button class="filter" data-filter="Portfolio" aria-pressed="false">Portfolios</button><button class="filter" data-filter="Applications" aria-pressed="false">Applications</button></div></div>
+        <div class="project-grid" id="projectGrid" aria-live="polite"></div>
+        <div class="empty-state" id="emptyState" hidden><div class="empty-icon">⌕</div><h3>No matching projects</h3><p>Try searching for another keyword or changing your filter.</p><button id="resetFilters" class="button secondary">Show all projects</button></div>
+        <div class="directory-bottom"><span><span class="pulse-dot"></span> Our ecosystem is always growing</span><a href="#contact">Have an idea? Let's connect <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="about-section section-pad" id="about"><div class="container about-grid"><div class="about-visual"><span class="visual-label">DRIVEN BY CURIOSITY</span><div class="big-monogram">N<span>.</span></div><span class="visual-bottom">DESIGN <span>✦</span> ENGINEERING <span>✦</span> INNOVATION</span></div><div class="about-copy"><span class="section-kicker">02 / THE STORY</span><h2>Connecting <span class="gradient-text">ideas with impact.</span></h2><p>This digital hub brings together a growing collection of projects: professional portfolios, educational experiences, engineering solutions, and productivity tools.</p><p>Each project has a different purpose, but all share one goal: making information easier to find and technology more useful.</p><a href="#directory" class="text-link">Explore the ecosystem <span aria-hidden="true">↗</span></a></div></div></section>
+
+    <section class="contact-section section-pad" id="contact"><div class="container"><div class="contact-panel"><div class="contact-orb"></div><span class="section-kicker">03 / WHAT'S NEXT</span><h2>Great things start<br/>with a <em>connection.</em></h2><p>Interested in one of our projects, or just exploring what's possible? The next big idea starts with a conversation.</p><div class="contact-buttons"><a href="https://github.com/pratheekshashaju123-sudo" target="_blank" rel="noopener noreferrer" class="button light">Explore on GitHub <span aria-hidden="true">↗</span></a><a href="#directory" class="button outline-light">View all projects <span aria-hidden="true">→</span></a></div></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container"><div class="footer-main"><div><a class="brand" href="#top"><span class="brand-symbol">N<span class="brand-dot">.</span></span><span class="brand-name">digital<span>hub</span></span></a><p>A growing collection of people, products,<br/>and possibilities. Built with purpose.</p></div><div class="footer-links"><div><h3>Explore</h3><a href="#directory">All projects</a><a href="#about">Our story</a></div><div><h3>Connect</h3><a href="https://github.com/pratheekshashaju123-sudo" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#contact">Get in touch</a></div></div></div><div class="footer-bottom"><span>© <span id="year"></span> Digital Hub. Made to evolve.</span><a href="#top">BACK TO TOP ↑</a></div></div></footer>
+</body>
+</html>
