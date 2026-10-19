@@ -61,9 +61,9 @@
     "title": "Checker’s Tool",
     "description": "Streamlining engineering verification and checking processes across projects.",
     "category": "Applications",
-    "status": "coming-soon",
-    "featured": false,
-    "url": "",
+    "status": "live",
+    "featured": true,
+    "url": "https://checkerstool.professionals-cv.in/",
     "icon": "check",
     "accent": "orange",
     "tags": ["Quality", "Spooling"]
