@@ -53,9 +53,9 @@
     "title": "EngiCore",
     "description": "A centralized platform for engineering data, digital tools and automated project workflows.",
     "category": "Applications",
-    "status": "coming-soon",
+    "status": "live",
     "featured": true,
-    "url": "",
+    "url": "https://nivinvarkey.github.io/engicore-website/",
     "icon": "database",
     "accent": "purple",
     "tags": ["Engineering Data", "Automation", "Digital Tools"]
