@@ -1,83 +1,87 @@
+
 [
   {
     "id": "pratheeksha",
     "title": "Pratheeksha Science Educator",
-    "description": "Discover a Science & Biology educator's qualifications, teaching experience, and dedication to inspiring young minds.",
+    "description": "Professional portfolio of a Science and Biology educator showcasing teaching qualifications, classroom experience, and student-centred learning.",
     "category": "Portfolio",
     "status": "live",
     "featured": true,
-    "url": "https://pratheekshashaju123-sudo.github.io/Pratheeksha_Science_Educator/",
-    "icon": "graduation",
+    "url": "https://pratheeksha.professionals-cv.in/",
+    "icon": "microscope",
     "accent": "green",
     "tags": ["Education", "Science", "Biology"]
   },
   {
-  "id": "nivin-portfolio",
-  "title": "Nivin Varkey",
-  "description": "Piping Engineering, Fabrication, Spooling and Engineering Digitalization",
-  "category": "Portfolio",
-  "status": "live",
-  "featured": true,
-  "url": "https://nivin.professionals-cv.in/",
-  "icon": "briefcase",
-  "accent": "blue",
-  "tags": [
-    "Engineering",
-    "Fabrication",
-    "Piping"
-  ]
-},
+    "id": "nivin-portfolio",
+    "title": "Nivin Varkey",
+    "description": "Piping engineering professional specializing in fabrication, spool detailing, project coordination, and engineering workflow automation.",
+    "category": "Portfolio",
+    "status": "live",
+    "featured": true,
+    "url": "https://nivin.professionals-cv.in/",
+    "icon": "wrench",
+    "accent": "blue",
+    "tags": ["Piping Engineering", "Fabrication", "Automation"]
+  },
   {
-  "id": "reshma-portfolio",
-  "title": "Adv. Reshma Raj",
-  "description": "Professional legal portfolio featuring civil, criminal and family law, litigation, legal research, document drafting and case management.",
-  "category": "Portfolio",
-  "status": "live",
-  "featured": true,
-  "url": "https://reshma.professionals-cv.in/",
-  "icon": "scale",
-  "accent": "gold",
-  "tags": [
-    "Legal Associate",
-    "Litigation",
-    "Legal Research",
-    "Family Law"
-  ]
-},
+    "id": "reshma-portfolio",
+    "title": "Adv. Reshma Raj",
+    "description": "Professional legal portfolio featuring civil, criminal and family law, litigation, legal research, document drafting and case management.",
+    "category": "Portfolio",
+    "status": "live",
+    "featured": true,
+    "url": "https://reshma.professionals-cv.in/",
+    "icon": "scale",
+    "accent": "gold",
+    "tags": ["Legal Associate", "Litigation", "Legal Research"]
+  },
+  {
+    "id": "vishnu-portfolio",
+    "title": "Vishnu Prakash",
+    "description": "Mechanical Engineer with 10 years of experience in pipe support design, structural detailing, fabrication engineering, EPC projects and CAD automation.",
+    "category": "Portfolio",
+    "status": "live",
+    "featured": true,
+    "url": "https://vishnu.professionals-cv.in/",
+    "icon": "settings",
+    "accent": "cyan",
+    "tags": ["Mechanical Engineering", "Pipe Support Design", "CAD Automation"]
+  },
   {
     "id": "engicore",
     "title": "EngiCore",
-    "description": "A home for engineering data, digital tools, and smarter project workflows.",
+    "description": "A centralized platform for engineering data, digital tools and automated project workflows.",
     "category": "Applications",
     "status": "coming-soon",
     "featured": true,
     "url": "",
-    "icon": "layers",
+    "icon": "database",
     "accent": "purple",
-    "tags": ["Engineering", "Automation"]
+    "tags": ["Engineering Data", "Automation", "Digital Tools"]
   },
   {
     "id": "checkers-tool",
     "title": "Checker’s Tool",
-    "description": "Streamlining engineering verification and checking processes across projects.",
+    "description": "Digital engineering drawing verification, spool tracking and quality checking across fabrication projects.",
     "category": "Applications",
     "status": "live",
     "featured": true,
     "url": "https://checkerstool.professionals-cv.in/",
-    "icon": "check",
+    "icon": "clipboard-check",
     "accent": "orange",
-    "tags": ["Quality", "Spooling"]
+    "tags": ["Drawing Verification", "Spool Tracking", "Quality"]
   },
   {
     "id": "my-workfront",
     "title": "My Workfront",
-    "description": "An organized workspace for tasks, progress, and everyday productivity.",
+    "description": "A digital workspace for task assignments, progress monitoring and engineering workflow management.",
     "category": "Applications",
     "status": "coming-soon",
     "featured": false,
     "url": "",
-    "icon": "grid",
+    "icon": "kanban",
     "accent": "cyan",
-    "tags": ["Productivity", "Workflow"]
+    "tags": ["Task Management", "Workflow", "Productivity"]
   }
 ]
