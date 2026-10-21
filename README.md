@@ -35,3 +35,7 @@ DNS settings depend on the domain's active nameservers. If nameservers aren't Go
 - The configuration file is public; do not put private data or secrets into it.
 - The only currently known, verified website URL in the initial configuration is the Pratheeksha educator GitHub Pages URL. All other project links are disabled until you add working URLs.
 - For local previews, run `python -m http.server 8000` inside the folder and open `http://localhost:8000`.
+
+
+### Portfolio icons
+Project icons are drawn as inline SVGs from `script.js`; all icon names referenced by `sites.json` have been implemented. `accent-gold` is supported for the legal portfolio. The bundled fallback list matches `sites.json` if the file cannot be loaded.
